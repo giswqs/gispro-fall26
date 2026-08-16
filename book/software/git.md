@@ -11,8 +11,8 @@ kernelspec:
   name: python3
 ---
 
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/intro-gispro/blob/main/book/software/git.ipynb)
-[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/intro-gispro/main?urlpath=lab/tree/book/software/git.ipynb)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/software/git.ipynb)
+[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/software/git.ipynb)
 
 # Version Control with Git
 
@@ -87,7 +87,7 @@ git status
 
 ```bash
 # Clone a repository from GitHub
-git clone https://github.com/<your-username>/intro-gispro.git
+git clone https://github.com/<your-username>/gispro-fall26.git
 ```
 
 ### Tracking Changes

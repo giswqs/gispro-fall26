@@ -11,8 +11,8 @@ kernelspec:
   name: python3
 ---
 
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/intro-gispro/blob/main/book/preface.ipynb)
-[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/intro-gispro/main?urlpath=lab/tree/book/preface.ipynb)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/preface.ipynb)
+[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/preface.ipynb)
 
 # Preface
 
@@ -42,7 +42,7 @@ $ python script.py
 ## Downloading the Code Examples
 
   ```bash
-  $ git clone https://github.com/giswqs/intro-gispro.git
+  $ git clone https://github.com/giswqs/gispro-fall26.git
   ```
 
 ## Video Tutorials

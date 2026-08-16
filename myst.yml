@@ -9,10 +9,10 @@ project:
     - Thumbs.db
     - .DS_Store
     - "**.ipynb_checkpoints"
-  github: giswqs/intro-gispro
+  github: giswqs/gispro-fall26
   # thebe:
   #   binder:
-  #     repo: giswqs/intro-gispro
+  #     repo: giswqs/gispro-fall26
   #     provider: github
   #     url: https://mybinder.org
   #     ref: main
