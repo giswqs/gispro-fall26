@@ -1,9 +1,17 @@
 version: 1
 project:
   title: Introduction to GIS Programming
+  subtitle: GEOG 312 · Fall 2026 · University of Tennessee, Knoxville
+  description: Course website for GEOG 312, Introduction to GIS Programming, taught by Dr. Qiusheng Wu in the Department of Geography and Sustainability at the University of Tennessee, Knoxville.
+  keywords:
+    - GIS programming
+    - Python
+    - geospatial
+    - GEOG 312
+    - University of Tennessee
   authors:
     - name: Qiusheng Wu
-  copyright: "2025"
+  copyright: "2026"
   exclude:
     - _build
     - Thumbs.db
@@ -16,11 +24,14 @@ project:
   #     provider: github
   #     url: https://mybinder.org
   #     ref: main
-  bibliography:
-    - book/references.bib
   toc:
     - file: index.md
-    - file: book/preface.md
+    - title: Course Information
+      children:
+        - file: book/about/syllabus.md
+        - file: book/about/schedule.md
+        - file: book/about/textbook.md
+        - file: book/about/instructor.md
     - title: Software Setup
       children:
         - file: book/software/overview.md
@@ -55,6 +66,9 @@ project:
         - file: book/geospatial/gdal.md
         - file: book/geospatial/solara.md
         - file: book/geospatial/sedona.md
+    - title: Labs
+      children:
+        - file: book/labs/instructions.md
 site:
   options:
     logo: logo.png
