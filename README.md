@@ -1,7 +1,7 @@
 # Introduction to GIS Programming
 
-[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/intro-gispro/HEAD)
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/intro-gispro/blob/main)
+[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/HEAD)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main)
 [![Docker Image](https://img.shields.io/badge/docker-giswqs%2Fpygis%3Abook-blue?logo=docker)](https://hub.docker.com/r/giswqs/pygis/tags)
 [![Amazon](https://img.shields.io/badge/Buy%20on-Amazon-orange?logo=amazon&logoColor=white)](https://amazon.com/dp/B0FFW34LL3)
 [![YouTube](https://img.shields.io/badge/Watch-Video-red?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPfb18kNe2luWX9xKg1233i9)
@@ -87,13 +87,13 @@ The code examples are organized into folders, each corresponding to a chapter in
 
 The code examples can be run using MyBinder.
 
-[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/intro-gispro/HEAD)
+[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/HEAD)
 
 ### Using Google Colab
 
 The code examples can be run using Google Colab.
 
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/intro-gispro/blob/main)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main)
 
 ### Using Docker
 
@@ -117,7 +117,7 @@ docker run -it -p 8888:8888 -p 4040:4040 -p 8080:8080 -p 8081:8081 -p 7077:7077 
 
 Complementing the written content, this book is supported by a comprehensive series of video tutorials that walk through key concepts and provide additional examples:
 
-**https://tinyurl.com/intro-gispro-videos**
+**https://tinyurl.com/gispro-fall26-videos**
 
 The videos are designed to complement, not replace, the written material. They're particularly helpful for:
 
@@ -132,7 +132,7 @@ The videos were created in Fall 2024 when I was teaching the [**Introduction to 
 
 ## Enroll for Certification
 
-Please note that you can access the [course materials](https://geog-312.gishub.org) and [lecture videos](https://tinyurl.com/intro-gispro-videos) on the course website without enrolling in the course. However, if you're interested in submitting lab assignments, receiving grades, and earning a certificate of completion, you can enroll in the course at any time by clicking the link below. There is no deadline for enrollment, and you can complete the course at your own pace.
+Please note that you can access the [course materials](https://geog-312.gishub.org) and [lecture videos](https://tinyurl.com/gispro-fall26-videos) on the course website without enrolling in the course. However, if you're interested in submitting lab assignments, receiving grades, and earning a certificate of completion, you can enroll in the course at any time by clicking the link below. There is no deadline for enrollment, and you can complete the course at your own pace.
 
 [Enroll Now](https://tiny.utk.edu/intro-gis-programming)
 
