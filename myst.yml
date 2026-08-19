@@ -31,6 +31,7 @@ project:
         - file: book/about/syllabus.md
         - file: book/about/schedule.md
         - file: book/about/textbook.md
+        - file: book/about/videos.md
         - file: book/about/instructor.md
     - title: Software Setup
       children:
