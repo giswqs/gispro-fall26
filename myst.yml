@@ -42,6 +42,7 @@ project:
         - file: book/software/colab.md
         - file: book/software/jupyterlab.md
         - file: book/software/docker.md
+        - file: book/software/troubleshooting.md
     - title: Python Programming Fundamentals
       children:
         - file: book/python/variables.md
