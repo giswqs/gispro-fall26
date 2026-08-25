@@ -82,6 +82,15 @@ docker pull giswqs/pygis:book
 docker run -it -p 8888:8888 -v $(pwd):/app/workspace giswqs/pygis:book
 ```
 
+## Enroll for Certification
+
+Please note that you can access the [course materials](https://gispro-fall26.gishub.org) and [lecture videos](https://www.youtube.com/playlist?list=PLJvnbRHCuERc) on the course website without enrolling in the course. However, if you're interested in submitting lab assignments, receiving grades, and earning a certificate of completion, you can enroll in the course at any time by clicking the link below. There is no deadline for enrollment, and you can complete the course at your own pace.
+
+[Enroll Now](https://tiny.utk.edu/intro-gis-programming)
+
+[![Introduction to GIS Programming](https://assets.gishub.org/images/intro-gis-programming.webp)](https://tiny.utk.edu/intro-gis-programming)
+
+
 ## Getting Help
 
 - **Technical questions** belong on the
