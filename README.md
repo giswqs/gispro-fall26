@@ -14,7 +14,7 @@ schedule for GEOG 312, an introduction to GIS programming with Python taught by
 Sustainability. No prior programming experience is assumed.
 
 Everything here is public. You are welcome to work through the material even if
-you are not enrolled at UT.
+you are not enrolled at UT. Happy coding!
 
 ## Quick Links
 
