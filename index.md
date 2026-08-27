@@ -52,7 +52,7 @@ By the end of the semester you will be able to:
 | [Course Information](book/about/syllabus.md) | Syllabus, schedule, textbook, instructor |
 | [Software Setup](book/software/overview.md) | Installing Python, VS Code, Git, Colab, JupyterLab, Docker |
 | [Python Programming Fundamentals](book/python/variables.md) | Variables, data structures, strings, loops, functions, files, NumPy and Pandas |
-| [Geospatial Programming with Python](book/geospatial/get-started.md) | GeoPandas, Rasterio, Xarray, Leafmap, WhiteboxTools, MapLibre, geemap, HyperCoast, DuckDB, GDAL, Solara, Sedona |
+| [Geospatial Programming with Python](book/geospatial/get-started.md) | GeoPandas, Rasterio, Xarray, Leafmap, WhiteboxTools, MapLibre, geemap, GeoLibre, DuckDB, GDAL, Solara, Sedona |
 | [Labs](book/labs/instructions.md) | Ten lab assignments and how to submit them |
 
 ## Textbook
