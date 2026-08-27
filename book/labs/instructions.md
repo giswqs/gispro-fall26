@@ -65,4 +65,14 @@ reserved for students who help answer classmates' questions.
 
 ## Labs
 
-Labs are added here through the semester.
+- [Lab 1](lab_01.md) — Variables, Data Types, and Data Structures
+- [Lab 2](lab_02.md) — String Operations and Looping
+- [Lab 3](lab_03.md) — Functions, Classes, Files, and Exception Handling
+- [Lab 4](lab_04.md) — NumPy, Pandas, and GeoPandas
+- [Lab 5](lab_05.md) — Raster Data with Rasterio
+- [Lab 6](lab_06.md) — Xarray and Rioxarray
+- [Lab 7](lab_07.md) — Interactive Mapping with Leafmap
+- [Lab 8](lab_08.md) — 3D Mapping with MapLibre
+- [Lab 9](lab_09.md) — Earth Engine and geemap
+
+Remaining labs are posted here as they are assigned.

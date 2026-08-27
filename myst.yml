@@ -71,6 +71,15 @@ project:
     - title: Labs
       children:
         - file: book/labs/instructions.md
+        - file: book/labs/lab_01.md
+        - file: book/labs/lab_02.md
+        - file: book/labs/lab_03.md
+        - file: book/labs/lab_04.md
+        - file: book/labs/lab_05.md
+        - file: book/labs/lab_06.md
+        - file: book/labs/lab_07.md
+        - file: book/labs/lab_08.md
+        - file: book/labs/lab_09.md
 site:
   options:
     logo: logo.png
