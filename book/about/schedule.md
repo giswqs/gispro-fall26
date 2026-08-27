@@ -22,7 +22,7 @@ listed and are due the following week. Stay current by checking
 | 11 | Oct 27 & 29 | **Raster analysis with Rioxarray; interactive visualization with Leafmap** | Geospatial Ch. 5 to 6 · Lab 9 |
 | 12 | Nov 3 & 5 | _Nov 3: no class (Election Day)_ · **Geoprocessing with WhiteboxTools** | Geospatial Ch. 7 · Final project proposal due Nov 5 |
 | 13 | Nov 10 & 12 | **3D mapping with MapLibre; cloud computing with Earth Engine and geemap** | Geospatial Ch. 8 to 9 |
-| 14 | Nov 17 & 19 | **Cloud-native GIS with GeoLibre; analytics with DuckDB; GDAL/OGR, Solara dashboards, and Apache Sedona** | Geospatial Ch. 11 to 14 · Lab 10 · Project work |
+| 14 | Nov 17 & 19 | **Cloud-native GIS with GeoLibre; hyperspectral visualization with HyperCoast; analytics with DuckDB; GDAL/OGR, Solara dashboards, and Apache Sedona** | Geospatial Ch. 10 to 14 · Lab 10 · Project work |
 | 15 | Nov 24 & 26 | **Final project presentations I** · _Nov 26: no class (Thanksgiving recess)_ | Thanksgiving recess Nov 25 to 27 |
 | 16 | Dec 1 | **Final project presentations II; course wrap-up** | Project notebook and report due Fri, Dec 4 |
 
