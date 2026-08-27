@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Hyperspectral Data Visualization with HyperCoast
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/geospatial/hypercoast.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/geospatial/hypercoast.ipynb)
-
-# Hyperspectral Data Visualization with HyperCoast
 
 ## Introduction
 

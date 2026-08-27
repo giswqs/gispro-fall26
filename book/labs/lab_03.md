@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Lab 3
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/labs/lab_03.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/labs/lab_03.ipynb)
-
-# Lab 3
 
 This notebook contains exercises based on the lectures on [**Functions and Classes**](../python/functions-classes.md) and [**Files and Exception Handling**](../python/files.md). These exercises will help reinforce the concepts of functions, classes, file handling, and exception management in geospatial contexts.
 

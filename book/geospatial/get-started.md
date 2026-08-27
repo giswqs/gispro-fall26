@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Introduction to Geospatial Python
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/geospatial/get-started.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/geospatial/get-started.ipynb)
-
-# Introduction to Geospatial Python
 
 ## Introduction
 

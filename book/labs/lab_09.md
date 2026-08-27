@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Lab 9
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/labs/lab_09.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/labs/lab_09.ipynb)
-
-# Lab 9
 
 ## Overview
 
