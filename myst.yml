@@ -63,6 +63,7 @@ project:
         - file: book/geospatial/whitebox.md
         - file: book/geospatial/maplibre.md
         - file: book/geospatial/geemap.md
+        - file: book/geospatial/geolibre.md
         - file: book/geospatial/hypercoast.md
         - file: book/geospatial/duckdb.md
         - file: book/geospatial/gdal.md
@@ -71,6 +72,16 @@ project:
     - title: Labs
       children:
         - file: book/labs/instructions.md
+        - file: book/labs/lab_01.md
+        - file: book/labs/lab_02.md
+        - file: book/labs/lab_03.md
+        - file: book/labs/lab_04.md
+        - file: book/labs/lab_05.md
+        - file: book/labs/lab_06.md
+        - file: book/labs/lab_07.md
+        - file: book/labs/lab_08.md
+        - file: book/labs/lab_09.md
+        - file: book/labs/lab_10.md
 site:
   options:
     logo: logo.png
