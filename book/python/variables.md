@@ -11,10 +11,10 @@ kernelspec:
   language: python
 ---
 
+# Variables and Data Types
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/python/variables.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/python/variables.ipynb)
-
-# Variables and Data Types
 
 ## Introduction
 

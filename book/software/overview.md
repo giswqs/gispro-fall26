@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Overview of Software Tools
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/software/overview.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/software/overview.ipynb)
-
-# Overview of Software Tools
 
 ## Introduction
 

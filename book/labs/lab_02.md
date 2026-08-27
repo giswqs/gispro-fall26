@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Lab 2
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/labs/lab_02.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/labs/lab_02.ipynb)
-
-# Lab 2
 
 This notebook contains exercises based on the lectures on [**String Operations**](../python/string-operations.md) and [**Looping and Control Statements**](../python/looping.md). These exercises will help reinforce the concepts of string manipulation, loops, and conditionals in geospatial contexts.
 

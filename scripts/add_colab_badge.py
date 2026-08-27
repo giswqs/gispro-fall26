@@ -33,6 +33,7 @@ BINDER_BADGE_SVG = "https://mybinder.org/badge_logo.svg"
 COLAB_OPEN_PREFIX = "https://colab.research.google.com/github/"
 BINDER_OPEN_PREFIX = "https://mybinder.org/v2/gh/"
 FRONTMATTER_RE = re.compile(r"\A---\n.*?\n---\n", re.DOTALL)
+H1_RE = re.compile(r"^# .+$", re.MULTILINE)
 
 
 def make_badges(repo: str, branch: str, notebook_path: str) -> str:
@@ -54,13 +55,37 @@ def make_badges(repo: str, branch: str, notebook_path: str) -> str:
     )
 
 
+def title_cell_index(nb) -> int:
+    """Return the index of the cell holding the notebook's level-one heading.
+
+    Returns -1 when no such cell exists, so callers inserting at
+    ``index + 1`` fall back to the top of the notebook.
+
+    Args:
+        nb: Parsed notebook.
+
+    Returns:
+        Zero-based cell index, or -1 if the notebook has no level-one heading.
+    """
+    for index, cell in enumerate(nb.cells):
+        if cell.get("cell_type") == "markdown" and H1_RE.search(cell.get("source", "")):
+            return index
+    return -1
+
+
 def has_launch_badge(text: str) -> bool:
     """Return True if ``text`` already contains a Colab or Binder badge."""
     return COLAB_BADGE_SVG in text or BINDER_BADGE_SVG in text
 
 
 def insert_badges_into_markdown(md_text: str, badges: str) -> str:
-    """Insert ``badges`` after the YAML frontmatter, before the body.
+    """Insert ``badges`` directly below the page's level-one heading.
+
+    MyST promotes a leading level-one heading into the page title and drops it
+    from the body. Badges placed above that heading block the promotion, so the
+    theme renders its own title *and* the heading and the page shows its title
+    twice. Falls back to inserting after the frontmatter when there is no
+    heading to anchor to.
 
     Args:
         md_text: Original Markdown content.
@@ -70,11 +95,18 @@ def insert_badges_into_markdown(md_text: str, badges: str) -> str:
         New Markdown content with the badges inserted as their own paragraph.
     """
     match = FRONTMATTER_RE.match(md_text)
-    if match:
-        head = match.group(0)
-        rest = md_text[match.end() :].lstrip("\n")
-        return f"{head}\n{badges}\n\n{rest}"
-    return f"{badges}\n\n{md_text.lstrip()}"
+    head = match.group(0) if match else ""
+    rest = md_text[len(head) :].lstrip("\n")
+
+    heading = H1_RE.search(rest)
+    if heading:
+        title = rest[: heading.end()]
+        body = rest[heading.end() :].lstrip("\n")
+        rest = f"{title}\n\n{badges}\n\n{body}" if body else f"{title}\n\n{badges}\n"
+    else:
+        rest = f"{badges}\n\n{rest}"
+
+    return f"{head}\n{rest}" if head else rest
 
 
 def process_markdown(
@@ -138,7 +170,7 @@ def process_notebook(
         return "skipped"
     rel = nb_path.relative_to(project_root).as_posix()
     badge_cell = nbformat.v4.new_markdown_cell(make_badges(repo, branch, rel))
-    nb.cells.insert(0, badge_cell)
+    nb.cells.insert(title_cell_index(nb) + 1, badge_cell)
     if not dry_run:
         nbformat.write(nb, nb_path)
     return "added"

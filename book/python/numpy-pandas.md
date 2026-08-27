@@ -11,10 +11,10 @@ kernelspec:
   name: python3
 ---
 
+# Data Analysis with NumPy and Pandas
+
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/gispro-fall26/blob/main/book/python/numpy-pandas.ipynb)
 [![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/gispro-fall26/main?urlpath=lab/tree/book/python/numpy-pandas.ipynb)
-
-# Data Analysis with NumPy and Pandas
 
 ## Introduction
 
