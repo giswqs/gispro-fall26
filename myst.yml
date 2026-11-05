@@ -82,6 +82,10 @@ project:
         - file: book/labs/lab_08.md
         - file: book/labs/lab_09.md
         - file: book/labs/lab_10.md
+    - title: Final Project
+      children:
+        - file: book/project/final-project.md
+        - file: book/project/template.md
 site:
   options:
     logo: logo.png

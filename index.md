@@ -54,6 +54,7 @@ By the end of the semester you will be able to:
 | [Python Programming Fundamentals](book/python/variables.md) | Variables, data structures, strings, loops, functions, files, NumPy and Pandas |
 | [Geospatial Programming with Python](book/geospatial/get-started.md) | GeoPandas, Rasterio, Xarray, Leafmap, WhiteboxTools, MapLibre, geemap, GeoLibre, HyperCoast, DuckDB, GDAL, Solara, Sedona |
 | [Labs](book/labs/instructions.md) | Ten lab assignments and how to submit them |
+| [Final Project](book/project/final-project.md) | Project guidelines, timeline, rubric, and a starter notebook |
 
 ## Textbook
 

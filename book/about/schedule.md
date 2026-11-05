@@ -19,21 +19,20 @@ listed and are due the following week. Stay current by checking
 | 8 | Oct 6 & 8 | _Oct 6: no class (Fall Break) · Oct 8: **Midterm exam**_ | Covers Software Setup and Python Fundamentals |
 | 9 | Oct 13 & 15 | **Introduction to geospatial Python; vector data analysis with GeoPandas** | Geospatial Ch. 1 to 2 · Lab 7 |
 | 10 | Oct 20 & 22 | **Raster data with Rasterio; multi-dimensional data analysis with Xarray** | Geospatial Ch. 3 to 4 · Lab 8 |
-| 11 | Oct 27 & 29 | **Raster analysis with Rioxarray; interactive visualization with Leafmap** | Geospatial Ch. 5 to 6 · Lab 9 |
-| 12 | Nov 3 & 5 | _Nov 3: no class (Election Day)_ · **Geoprocessing with WhiteboxTools** | Geospatial Ch. 7 · Final project proposal due Nov 5 |
-| 13 | Nov 10 & 12 | **3D mapping with MapLibre; cloud computing with Earth Engine and geemap** | Geospatial Ch. 8 to 9 |
-| 14 | Nov 17 & 19 | **Cloud-native GIS with GeoLibre; hyperspectral visualization with HyperCoast; analytics with DuckDB; GDAL/OGR, Solara dashboards, and Apache Sedona** | Geospatial Ch. 10 to 14 · Lab 10 · Project work |
-| 15 | Nov 24 & 26 | **Final project presentations I** · _Nov 26: no class (Thanksgiving recess)_ | Thanksgiving recess Nov 25 to 27 |
-| 16 | Dec 1 | **Final project presentations II; course wrap-up** | Project notebook and report due Fri, Dec 4 |
+| 11 | Oct 27 & 29 | **Raster analysis with Rioxarray** | Geospatial Ch. 5 · Lab 9 |
+| 12 | Nov 3 & 5 | _Nov 3: no class (Election Day)_ · **Interactive visualization with Leafmap** | Geospatial Ch. 6 |
+| 13 | Nov 10 & 12 | **Geoprocessing with WhiteboxTools; 3D mapping with MapLibre** | Geospatial Ch. 7 to 8 · Final project proposal due Fri, Nov 13 |
+| 14 | Nov 17 & 19 | **Cloud computing with Earth Engine and geemap** | Geospatial Ch. 9 · Project work |
+| 15 | Nov 24 & 26 | **Cloud-native GIS with GeoLibre** · _Nov 26: no class (Thanksgiving recess)_ | [GeoLibre chapter](../geospatial/geolibre.md) on this site (not in the book) · Lab 10 · Thanksgiving recess Nov 25 to 27 |
+| 16 | Dec 1 | **Final project work session; course wrap-up** | Project notebook and recorded presentation due Fri, Dec 4 |
 
 ## Key Deadlines
 
 | Date | What is due |
 |---|---|
 | Thu, Oct 8 | Midterm exam, in class |
-| Thu, Nov 5 | Final project proposal, one page |
-| Tue, Nov 24 and Tue, Dec 1 | Final project presentations |
-| Fri, Dec 4 | Final project notebook and written report |
+| Fri, Nov 13 | [Final project](../project/final-project.md) proposal, one page |
+| Fri, Dec 4 | Final project notebook and recorded presentation |
 
 Labs are due the week after they are assigned. The exact date and time for each
 lab are posted on Canvas. Late labs lose 10% per day.

@@ -46,8 +46,8 @@ code in class. The course aims to:
    DuckDB) so that you can pick the right tool for a problem instead of the only
    one you know.
 3. Move you from following tutorials to solving your own problems, through
-   weekly labs and a final project of your own design that you present to the
-   class.
+   weekly labs and a final project of your own design that you present in a
+   recorded video.
 
 ## Student Learning Outcomes
 
@@ -162,10 +162,12 @@ absence on exam day earns a zero. See the make-up policy below.
 ### Final Project
 
 An individual project on a geospatial problem of your own choosing, using the
-tools from the course. A one-page proposal is due Thursday, November 5. You will
-present your work to the class in the final two weeks and submit a notebook and
-short written report by Friday, December 4. Projects are graded on technical
-execution, reproducibility, and how clearly you explain what you did and why.
+tools from the course. A one-page proposal, required but not graded, is due
+Friday, November 13. By Friday, December 4, you will submit a notebook, which
+serves as your written report, and a recorded presentation of about 10 minutes,
+both on Canvas. Projects are graded on technical execution, reproducibility,
+and how clearly you explain what you did and why.
+See the [final project guidelines](../project/final-project.md).
 
 ### Extra Credit
 
