@@ -144,7 +144,7 @@ In this lab, you will delve deeper into Leafmap, a powerful Python package for i
 ## Exercise 7: Visualizing PMTiles
 
 1. Visualize the Overture Maps building dataset using PMTiles:
-    * URL: https://overturemaps-tiles-us-west-2-beta.s3.amazonaws.com/2024-09-18/buildings.pmtiles
+    * URL: https://tiles.overturemaps.org/{release}/buildings.pmtiles, where `{release}` is the latest release from `leafmap.get_overture_latest_release(patch=True)`
     * Style: Blue fill with 0.4 opacity, red outline.
 
 ```{code-cell} ipython3
